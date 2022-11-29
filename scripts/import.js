@@ -12,10 +12,10 @@ SCRIPTS.forEach((script) => {
 
 // import stylesheets
 const STYLESHEETS = [
-  `<link rel="stylesheet" href="/stylesheets/site.css">`,
-  `<link rel="stylesheet" href="/stylesheets/fonts.css">`,
-  `<link rel="stylesheet" href="/stylesheets/header.css">`,
-  `<link rel="stylesheet" href="/stylesheets/footer.css">`,
+  `<link rel="stylesheet" href="/assets/stylesheets/site.css">`,
+  `<link rel="stylesheet" href="/assets/stylesheets/fonts.css">`,
+  `<link rel="stylesheet" href="/assets/stylesheets/header.css">`,
+  `<link rel="stylesheet" href="/assets/stylesheets/footer.css">`,
   `<link rel="stylesheet" href="style.css">`
 ]
 
