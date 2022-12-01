@@ -1,0 +1,62 @@
+@import url("https://use.typekit.net/pxr7ylh.css");
+
+:root {
+    --clr: #3D3D3D;
+    --clr-background: #C7C6C5;
+    --ff-primary: pt-mono, monospace;
+}
+
+body {
+    background-color: var(--clr-background);
+    font-family: var(--ff-primary);
+}
+
+.navbar {
+    background-color: var(--clr-background);
+}
+
+.section-header {
+    background-color: var(--clr-background);
+}
+
+.divider {
+    background-color: var(--clr);
+}
+
+h1 {
+    font-family: var(--ff-primary);
+    font-weight: 400;
+    color: var(--clr);
+  }
+h2 {
+    font-family: var(--ff-primary);
+    color: var(--clr);
+    font-weight: 400;
+    font-size: 2.5rem;
+  }
+h3 {
+    font-family: var(--ff-primary);
+    color: var(--clr);
+    font-weight: 400;
+    font-size: 1.2rem
+  }
+p {
+    color: var(--clr);
+    font-size: 0.9rem;
+  }
+
+
+a:link{
+  color: var(--clr);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: var(--clr);
+  text-decoration: none;
+}
+  

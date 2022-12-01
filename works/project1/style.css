@@ -12,7 +12,7 @@ html {
 }
 
 nav {
-  padding: 0.5em 0 0.5em 0;
+  padding: 0.5em 0;
   display: flex;
   justify-content: space-between;
   font-family: pt-mono, monospace;
@@ -38,34 +38,15 @@ nav {
   justify-content: space-between;
   font-family: pt-mono, monospace;
   font-size: 0.8rem;
+  min-width: 16rem;
   
 }
 
-a:link{
-  color: #3D3D3D;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-a:visited {
-  color: #3D3D3D;
-  text-decoration: none;
-}
 
 .divider {
   background-color:#3D3D3D;
   height: 1px;
   width: 100; 
-}
-
-.divider2 {
-  background-color:#3D3D3D;
-  height: 0.5px;
-  width: 30rem; 
-  margin: 1rem auto;
 }
 
 body {
@@ -87,29 +68,6 @@ main {
   margin: 7rem auto;
 }
 
-h1 {
-  font-family: pt-mono, monospace;
-  font-weight: 400;
-  color:#3D3D3D;
-}
-
-h2 {
-  font-family: pt-mono, monospace;
-  color:#3D3D3D;
-  font-weight: 400;
-  font-size: 2rem;
-}
-
-h3 {
-    font-family: pt-mono, monospace;
-    color: #3D3D3D;
-    font-weight: 400;
-  }
-
-p {
-  color:#3D3D3D;
-  font-size: 0.9rem;
-}
 
 .work {
   text-align: center;

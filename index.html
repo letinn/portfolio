@@ -6,38 +6,29 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>tin le</title>
-  <script src="/lib/jquery-3.6.1.min.js"></script>
-  <script src="/scripts/import.js"></script>
+
+  <link rel="stylesheet" href="/assets/stylesheets/site.css">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="/scripts/menu.js" defer></script>
+  
 </head>
 
-
-
-
+<body>
 <main>
-
-  <div id="top" class="navbar">
-    <nav>
-      <a href="/index.html#work">work</a>
-      <a href="/index.html">tin le</a>
-      <a href="/index.html#info">info</a>
-    </nav>
-    <div class="divider"></div>
-  </div>
 
   <div class="introduction">
     <h1>Welcome. I'm Tin Le, a Chicago-based graphic designer and artist with an interest in print and bookmaking. Check
       out my work below.</h1>
   </div>
 
+  <div class="section-header">
+    <div class="divider"></div>
+    <p class="section-title">WORK</p>
+    <div class="divider"></div>
+  </div>
 
-    <div id="work" class="section-header">
-      <div class="divider"></div>
-      <p class="section-title">work</p>
-      <div class="divider"></div>
-    </div>
-
-
-
+  <div id="work" class="work-section">
     <div class="project">
       <a class="worklink" href="/works/project1">1. Wade</a>
       <a href="/works/project1" class="imagelink">
@@ -67,17 +58,27 @@
     </div>
     <!-- <div class="divider2"></div> -->
     <div class="project">
-      <a class="worklink" href="/works/project5">5. proj</a>
-      <a href="/works/project4" class="imagelink">
-        <img src="https://picsum.photos/id/358/200/200" alt="">
+      <a class="worklink" href="/works/project5">5. Architecture Lecture Series</a>
+      <a href="/works/project5" class="imagelink">
+        <img src="/assets/images/project5/arcseries2.jpg" alt="">
       </a>
     </div>
 
+    <div class="project">
+      <a class="worklink" href="/works/project6">6. How to talk to your mother</a>
+      <a href="/works/project6" class="imagelink">
+        <img src="/assets/images/project6/httym.png" alt="">
+      </a>
+    </div>
+
+  </div>
+
     <div id="info" class="section-header">
       <div class="divider"></div>
-      <p class="section-title">info</p>
+      <p class="section-title">INFO</p>
       <div class="divider"></div>
     </div>
+
 
 
     <div class="projectinfo">
@@ -109,3 +110,7 @@
 <footer>
   <p>tin le &copy; 2022</p>
 </footer>
+
+</body>
+
+</html>
