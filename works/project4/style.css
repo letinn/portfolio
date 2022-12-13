@@ -42,6 +42,10 @@ nav {
   
 }
 
+.navbar2 > * {
+  width: max-content;
+}
+
 
 .divider {
   background-color:#3D3D3D;

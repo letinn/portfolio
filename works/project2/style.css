@@ -41,6 +41,9 @@ nav {
   min-width: 16rem;
 }
 
+.navbar2 > * {
+  width: max-content;
+}
 
 .divider {
   height: 1px;
