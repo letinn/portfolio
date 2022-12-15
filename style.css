@@ -133,6 +133,7 @@ p {
   border: solid 1px #3D3D3D;
   max-width: 300px;
   margin: 0 auto;
+  max-height: 16rem;
   }
 
 footer {
